@@ -1,0 +1,268 @@
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: embd_model
+INFO:accelerate.utils.modeling:We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+INFO:root:Filtered response: Context: | [REDACTED] (EXIM Bank)<br>(Amount in Rs. Crore) |            |            |            |            |            |  |
+|---|---|---|---|---|---|---|
+|------------------------------------------------------------------|------------|------------|------------|------------|------------|--|
+| Indicator                                                        | FY 2019-20 | FY 2020-21 | FY 2021-22 | FY 2022-23 | FY 2023-24 |  |
+| [REDACTED] advances                                                   | 107051.50  | 110731.35  | 121966.24  | 139272.40  | 160246.28  |  |
+| Return on Assets (RoA)                                           | 0.10%      | 0.19%      | 0.54%      | 1.04%      | 1.47%      |  |
+| [REDACTED]                                                             | 20.13%     | 25.89%     | 30.49%     | 25.43%     | 21.18%     |  |
+| Net Interest Margin                                              | 1.54%      | 1.84%      | 2.19%      | 2.29%      | 2.06%      |  |
+| [REDACTED] NPA                                                        | 9361.83    | 7413.05    | 4347.08    | 5697.48    | 3,101.26   |  |
+| [REDACTED] NPA %                                                      | 8.75%      | 6.69%      | 3.56%      | 4.09%      | 1.94%      |  |
+| Net NPA                                                          | 1756.83    | 533.05     | -          | 948.48     | 457.26     |  |
+| Net NPA %                                                        | 1.77%      | 0.51%      | 0.00%      | 0.71%      | 0.29%      |  |
+| [REDACTED] (PCR)                                   | 88.76%     | 96.74%     | 100.00%    | 94.56%     | 96.83%     |  |
+| [REDACTED]                                                | 243.74     | 356.32     | 2149.75    | 2089.08    | 3,336.54   |  |
+| Profit After Tax                                                 | 123.85     | 253.99     | 737.65     | 1555.84    | 2,518.67   |  |
+| % of [REDACTED]                                   | 100        | 100        | 100        | 100        | 100        |  |
+| Authorised Capital                                               | 20000.00   | 20000.00   | 20000.00   | 20000.00   | 20000.00   |  |
+| Paid-up Capital                                                  | 13859.37   | 15159.37   | 15909.37   | 15909.37   | 15909.37   |  |
+| [REDACTED]                                               | 12900.31   | 14347.01   | 17229.60   | 18608.11   | 20,698.38  |  |
+| [REDACTED] (IIFCL)<br>(Amount in Rs. Crore) |            |            |            |            |            |  |
+|---|---|---|---|---|---|---|
+|-------------------------------------------------------------------------------|------------|------------|------------|------------|------------|--|
+| Indicator                                                                     | FY 2019-20 | FY 2020-21 | FY 2021-22 | FY 2022-23 | FY 2023-24 |  |
+| [REDACTED] advances                                                                | 33626.96   | 36688.89   | 39352.32   | 42270.76   | 51017.16   |  |
+| Return on Avg. Assets ([REDACTED])                                                  | 0.11%      | 0.53%      | 0.91%      | 1.85%      | 2.53%      |  |
+| [REDACTED]                                                                          | 30.85%     | 30.86%     | 29.03%     | 27.65%     | 28.15%     |  |
+| Net Interest Margin                                                           | 3.46%      | 2.08%      | 2.25%      | 2.39%      | 2.77%      |  |
+| [REDACTED] NPA                                                                     | 6623.07    | 5100.44    | 3631.77    | 2013.50    | 823.16     |  |
+| [REDACTED] NPA %                                                                   | 19.70%     | 13.90%     | 9.22%      | 4.76%      | 1.61%      |  |
+| Net NPA                                                                       | 3278.33    | 1977.18    | 1352.88    | 594.41     | 234.39     |  |
+| Net NPA %                                                                     | 9.75%      | 5.39%      | 3.65%      | 1.45%      | 0.46%      |  |
+| [REDACTED] (PCR)                                                | 50.51%     | 61.24%     | 62.75%     | 70.48%     | 71.53%     |  |
+| [REDACTED]                                                             | -291.48    | 315.43     | 590.13     | 1276.79    | 2,028.51   |  |
+| Profit After Tax                                                              | 50.92      | 285.27     | 514.26     | 1075.60    | 1551.61    |  |
+| % of [REDACTED]                                                | 100%       | 100%       | 100%       | 100%       | 100%       |  |
+| Authorised Capital                                                            | 10,000     | 10,000     | 10,000     | 10,000     | 10,000     |  |
+| Paid-up [REDACTED]| 9999.92    | 9999.92    | 9999.92    | 9999.92    | 9999.92    |  |
+| [REDACTED]                                                            | 10301.28   | 10651.68   | 11735.31   | 12876.98   | 14,265.10  |  |
+| [REDACTED] (NHB)<br>(Amount in Rs. Crore) |            |            |            |            |            |            |
+|---|---|---|---|---|---|---|
+|------------------------------------------------------|------------|------------|------------|------------|------------|------------|
+| Indicator                                            | FY 2018-19 | FY 2019-20 | FY 2020-21 | FY 2021-22 |
+
+Question: What were the total assets of [REDACTED] in 2023?
+
+Only provide the exact answer to the question without additional information.
+Answer: The total assets of [REDACTED] in 2023 were Rs. 1,00,000,000.
+
+
+
+INFO:accelerate.utils.modeling:We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:root:Filtered response: Context: Source: EXIM Bank
+| [REDACTED] (NHB)<br>(Amount in Rs. Crore) |            |            |            |            |            |            |
+|---|---|---|---|---|---|---|
+|------------------------------------------------------|------------|------------|------------|------------|------------|------------|
+| Indicator                                            | FY 2018-19 | FY 2019-20 | FY 2020-21 | FY 2021-22 | FY 2022-23 | FY 2023-24 |
+| [REDACTED] advances                                   | 69809.00   | 84253.00   | 88360.00   | 73995.51   | 92083      | 1,02,265   |
+| Return on Assets (RoA)                               | 1.04%      | 0.25%      | 0.75%      | 2.33%      | 1.45%      | 1.59%      |
+| [REDACTED]                                                 | 16.01%     | 12.74%     | 12.14%     | 16.02%     | 15.17%     | 16.38%     |
+| Net Interest Margin                                  | 2.26%      | 1.97%      | 1.56%      | 1.40%      | 2.06%      | 2.42%      |
+| [REDACTED] NPA                                            | 4.00       | 2503.00    | 2503.00    | 1535.00    | 710        | 706        |
+| [REDACTED] NPA %                                          | 0.01%      | 3.06%      | 2.92%      | 2.07%      | 0.77%      | 0.69%      |
+| Net NPA                                              | 0.00       | 625.00     | 0.00       | 0.00       | 0.00       | 0.00       |
+| Net NPA %                                            | 0.00%      | 0.76%      | 0.00%      | 0.00%      | 0.00%      | 0.00%      |
+| Provision Coverage Ratio<br>(PCR)                    | 100%       | 75%        | 100%       | 100%       | 100%       | 100%       |
+| [REDACTED]                                    | 1314.00    | 452.00     | 460.00     | 2530.92    | 1710       | 2248       |
+| Profit After Tax                                     | 733.00     | 196.00     | 663.00     | 1919.68    | 1262       | 1664       |
+| % of [REDACTED]<br>Stake                    | 100.00     | 100.00     | 100.00     | 100.00     | 100.00     | 100%       |
+| Authorised [REDACTED]| 1450.00    | 1450.00    | 1450.00    | 1450.00    | 1450.00    | 1450       |
+| Paid-up [REDACTED]   | 1450.00    | 1450.00    | 1450.00    | 1450.00    | 1450.00    | 1450       |
+| [REDACTED]| 8403.91    | 8587.21    | 8742.16    | 10670.44   | 11903      | 13386      |
+Total Visitors: *1386742* **Last Updated Date : 11/10/2024**
+| [REDACTED]<br>(Amount in Rs. Crore) |            |            |            |            |            |
+|---|---|---|---|---|---|
+|---------------------------------------|------------|------------|------------|------------|------------|
+| Indicator                             | FY 2019-20 | FY 2020-21 | FY 2021-22 | FY 2022-23 | FY 2023-24 |
+| [REDACTED] advances                        | 16644.00   | 12703.00   | 7,339.90   | 6,441.59   | 5046.04    |
+| Return on Assets (RoA)                | -1.56%     | -11.51%    | -16.63%    | -3.55%     | 0.93%      |
+| [REDACTED]                                  | 13.54%     | -10.81%    | -64.85%    | -70.66%    | -48.35%    |
+| Net Interest Margin                   | 5.50%      | -0.33%     | -5.72%     | -12.53%    | -5.89%     |
+| [REDACTED] NPA                             | 7774.68    | 7801.01    | 6514.90    | 5749.06    | 4,615.56   |
+| [REDACTED] NPA %                           | 61.93%     | 73.72%     | 90.67%     | 92.39%     | 96.22%     |
+| Net NPA                               | 3495.93    | 2816.72    | 2058.00    | 1499.18    | 937.17     |
+| Net NPA %                             | 42.69%     | 50.50%     | 75.48%     | 75.99%     | 83.80%     |
+| [REDACTED]                     | -140.97    | [REDACTED]   | -1785.10   | -185.57    | 483.80     |
+| Profit After Tax                      | -277.88    | [REDACTED]   | -1991.33   | -287.58    | 128.25     |
+| % of [REDACTED] Stake        | 56.42%     | 61.02%     | 64.86%     | 66.35%     | 70.32      |
+| Authorised [REDACTED]| 2000.00    | 4000.00    | 4000.00    | 4000.00    | 4,000.00   |
+| [REDACTED]<br>(Amount in Rs. Crore) |             |             |             |
+|---|---|---|---|
+|-------------------------------------------------------------------------------------|-------------|-------------|-------------|
+| Indicator                                                                           | FY 2021-22  | FY 2022-23  | FY 2023-24  |
+| [REDACTED] advances                                                                      | -           | 9,754.00    | 35,342.00   |
+| Return on Assets (RoA)                                                              | 0.00%       | 4.98%       | 4.63%       |
+| [REDACTED]                                                                                | 0.00%       | 423.56%     | 115.05%     |
+| Net Interest Margin                                                                 | 122.74      | 1118.60     | 1714.26     
+
+Question: What were the total assets of [REDACTED] in 2023?
+
+Only provide the exact answer to the question without additional information.
+Answer: The total assets of [REDACTED] in 2023 were Rs. 1,02,265 crore.
+
+
+
+INFO:accelerate.utils.modeling:We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+ERROR:root:Error processing request: <MilvusException: (code=0, message=field pdf_name not exist)>
+INFO:accelerate.utils.modeling:We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:root:Filtered response:  The total assets of [REDACTED] in 2023 were Rs. 1,00,000.00 crore.
+
+
+
+INFO:accelerate.utils.modeling:We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:root:Filtered response:  The key performance indicators (KPIs) of [REDACTED] are:
+
+- Gross advances: This is the total amount of loans and advances given by [REDACTED] to the borrowers. It reflects the growth and activity of the lending sector.
+- Return on Assets (RoA): This is the ratio of net income to average total assets. It measures the efficiency and profitability of [REDACTED]'s lending operations.
+- CRAR: This is the ratio of gross non-performing assets to gross advances. It indicates the level of risk and loss exposure of [REDACTED]'s lending portfolio.
+- Net Interest Margin: This is the ratio of net interest income to average total assets. It measures the profitability of [REDACTED]'s lending operations.
+- Gross NPA: This is the total amount of loans and advances that are overdue or non-performing. It reflects the quality and performance of [REDACTED]'s lending operations.
+- Net NPA: This is the amount
+INFO:root:Filtered response:  The key performance indicators (KPIs) of [REDACTED] are:
+
+- Gross advances: This is the total amount of loans and advances given by [REDACTED] to the borrowers. It reflects the growth and activity of the lending sector.
+- Return on Assets (RoA): This is the ratio of net income to average total assets. It measures the efficiency and profitability of [REDACTED]'s lending operations.
+- CRAR: This is the ratio of gross non-performing assets to gross advances. It indicates the level of risk and loss exposure of [REDACTED]'s lending portfolio.
+- Net Interest Margin: This is the ratio of net interest income to average total assets. It measures the profitability of [REDACTED]'s lending operations.
+- Gross NPA: This is the total amount of loans and advances that are overdue or non-performing. It reflects the quality and performance of [REDACTED]'s lending operations.
+- Net NPA: This is the amount
+INFO:accelerate.utils.modeling:We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:root:Filtered response:  SIDBI FY 2023-24 Gross advances are Rs. 1,500 crore.
+
+
+
+INFO:root:Filtered response: 
+
+[REDACTED] ([REDACTED]) is a public sector bank that provides financial assistance to small and medium enterprises (SMEs) in [REDACTED]. The bank's gross advances for FY 2023-24 are Rs. 1,02,265 crore, which is an increase of Rs. 1,05,000 crore from the previous year. The bank's gross advances are the total amount of loans and advances it has extended to its borrowers. The bank's gross advances reflect its lending activity and its contribution to the economic growth and development of the country.
+
+
+
+INFO:root:Filtered response:  The Export-Import Bank of India (EXIM Bank) FY 2023-24 Gross advances are Rs. 160,246.28 crore.
+
+
+
+INFO:root:Filtered response:  The exact answer to the question is not provided in the given text.
+
+INFO:root:Filtered response:  The exact answer to the question is not provided in the given text.
+
+INFO:root:Filtered response: 
+
+The correct option is [REDACTED] (NHB)
+
+llllGross advances
+
+llllReturn on Assets (RoA)
+
+llllCRAR
+
+llllNet Interest Margin
+
+llllGross NPA
+
+llllNet NPA
+
+llllProfit Before Tax
+
+llllProfit After Tax
+
+llll% of [REDACTED]
+
+llllAuthorised [REDACTED]llllPaid-up [REDACTED]llllTangible Net Worth
+
+llllIFCI Limited
+
+llllGross advances
+
+llllReturn on Assets (RoA)
+
+llllCRAR
+
+llllNet Interest Margin
+
+llllGross NPA
+
+llllNet NPA
+
+llllProfit Before Tax
+
+llllProfit After Tax
+
+llll% of [REDACTED]
+
+ll
+INFO:root:Filtered response:  The capital of [REDACTED] is [REDACTED].
+
+
+
+INFO:accelerate.utils.modeling:We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: facebook/contriever
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name facebook/contriever. Creating a new one with mean pooling.
+INFO:accelerate.utils.modeling:We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: D:\WorkSpace_0\CAI\infrence\retriever_model
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name D:\WorkSpace_0\CAI\infrence\retriever_model. Creating a new one with mean pooling.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: D:\WorkSpace_0\CAI\infrence\retriever_model
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name D:\WorkSpace_0\CAI\infrence\retriever_model. Creating a new one with mean pooling.
+INFO:sentence_transformers.cross_encoder.CrossEncoder:Use pytorch device: cuda
+ERROR:root:Error processing request: name 'RESTRICTED_WORDS_FILE' is not defined
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: D:\WorkSpace_0\CAI\infrence\retriever_model
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name D:\WorkSpace_0\CAI\infrence\retriever_model. Creating a new one with mean pooling.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: D:\WorkSpace_0\CAI\infrence\retriever_model
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name D:\WorkSpace_0\CAI\infrence\retriever_model. Creating a new one with mean pooling.
+INFO:sentence_transformers.cross_encoder.CrossEncoder:Use pytorch device: cuda
+ERROR:root:Error processing request: name 'validate_query' is not defined
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: D:\WorkSpace_0\CAI\infrence\retriever_model
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name D:\WorkSpace_0\CAI\infrence\retriever_model. Creating a new one with mean pooling.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: D:\WorkSpace_0\CAI\infrence\retriever_model
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name D:\WorkSpace_0\CAI\infrence\retriever_model. Creating a new one with mean pooling.
+INFO:sentence_transformers.cross_encoder.CrossEncoder:Use pytorch device: cuda
+ERROR:root:Error processing request: name 'validate_query' is not defined
+INFO:accelerate.utils.modeling:We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+INFO:sentence_transformers.cross_encoder.CrossEncoder:Use pytorch device: cuda
+ERROR:root:Error processing request: <MilvusException: (code=0, message=attempt #0: fail to Search, QueryNode ID=3, reason=worker(3) query failed: UnexpectedError: Assert "field_meta.get_sizeof() == element.line_sizeof_" at /go/src/github.com/milvus-io/milvus/internal/core/src/query/Plan.cpp:52
+ => vector dimension mismatch: channel=by-dev-rootcoord-dml_2_456658196714118028v0: fail to search/query shard leader: attempt #1: no available shard delegator found: service unavailable: fail to search on all shard leaders)>
+INFO:root:Filtered response:  The key performance indicators (KPIs) of EXIM Bank are:
+
+- **Net profit**: This is the difference between the total revenue and the total expenses of the bank. It measures the profitability and efficiency of the bank's operations.
+- **Net profit margin**: This is the ratio of net profit to total revenue. It measures the percentage of revenue that the bank retains as profit after deducting all costs.
+- **Return on equity**: This is the ratio of net profit to shareholders' equity. It measures the percentage of profit that the bank generates for each unit of equity invested by the shareholders.
+- **Asset quality**: This is the ratio of non-performing assets ([REDACTED]) to total assets. It measures the percentage of assets that are not repaid by the borrowers due to default or insolvency.
+- **Lending growth**: This is the percentage change in the total loans and advances of the bank over a period of time
+INFO:root:Filtered response:  The profit of EXIM Bank for the year ended March 31, 2020 was Rs. 1,937.5 crore.
+
+INFO:root:Filtered response: 
+
+Generators are functions that allow you to iterate over a sequence of values without having to store them all in memory at once. They are useful when you have a large dataset that you don't want to load into memory all at once, or when you want to generate values on the fly.
+
+For example, let's say you have a large file with a million lines of data, and you want to process each line one at a time. You could use a generator function to read the file line by line, like this:
+
+```python
+def read_file(filename):
+    with open(filename, 'r') as f:
+        for line in f:
+            yield line
+
+for line in read_file('data.txt'):
+    # process the line
+```
+
+In this example, the `read_file` function is a generator function that reads the file line by line and yields each line one
